@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
+    <style>
+        body{
+            background-color: rgb(80, 80, 214);
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        h1{
+            color: rgb(201, 137, 20);
+        }
+    </style>
+</head>
+<body>
+    <h1>Bem vindo!</h1>
+
+    <script>
+        var n1 = Number(window.prompt('Digite um numero'))//(Number.parseInt) faz a conversão de uma string para um numero inteiro. pois o window.prompt retorna uma string(caso queira fazer numero quebrado usar o (Number.parseFloat). Usando apenas (Number) o JS faz a a escolha automatica.
+        var n2 = Number(window.prompt('Digite outro numero'))
+        var soma = n1 + n2
+        window.alert(`a soma entre ${n1} e ${n2} é igual a ${soma}`) //Usando o (String()) faz a conversão novamente para a uma string.
+    </script>
+</body>
+</html>
